@@ -12,6 +12,7 @@ int main(void)
     box = (int *)malloc(m * sizeof(int));
     if (box == NULL)
         return(0);
+    //박스의 값들 0으로 초기화
     while (p < m)
     {
         box[p] = 0;
@@ -19,6 +20,8 @@ int main(void)
     }
     p = 0;
     index = 0;
+    //i번째에서 j번째까지 k로 채운다 
+    //겹치면 그냥 덮어씌우기
     while (index < n)
     {
         scanf("%d %d %d",&i,&j,&k);
@@ -31,6 +34,7 @@ int main(void)
         index++;
     }
     i = 0;
+    //m개의 바구니만큼 넣기
     while (i < m)
     {
         printf("%d ",box[i]);
