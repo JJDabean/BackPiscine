@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define N 30
+#define N 10
 
 int main(void)
 {
