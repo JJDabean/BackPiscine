@@ -1,6 +1,8 @@
+// https://www.acmicpc.net/problem/10810
+
 #include <stdio.h>
 #include <stdlib.h>
-#define N 10
+#define N 30
 
 int main(void)
 {
